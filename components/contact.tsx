@@ -18,7 +18,7 @@ export default function Contact() {
             <Mail size={32} className="text-orange-600 mx-auto mb-3" />
             <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
             <a href="mailto:elaketsy24@gmail.com" className="text-orange-600 hover:text-orange-700 transition">
-              elaketsy24@gmail.com
+              ellaketsy24@gmail.com
             </a>
           </div>
           <div className="card-elevated">

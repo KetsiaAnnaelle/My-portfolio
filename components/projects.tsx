@@ -4,6 +4,42 @@ import { useEffect, useState } from "react"
 import { Github, ExternalLink } from "lucide-react"
 
 const projects = [
+
+   {
+    title: "Plastidta",
+    desc: "Site vitrine d'une entreprise de plasturgie en France",
+    tech: ["React", "Tailwindcss", "laravel"],
+    github: "https://github.com/KetsiaAnnaelle/PLASTIDATA",
+    live: "https://plastidata.fr", 
+    src: "IMG PORTFOLIO/plastidta.png",
+  },
+
+  {
+    title: "Tournoi de Douala",
+    desc: "Application web de gestion de tournoi de football",
+    tech: ["React", "Tailwindcss", "laravel", "Hostinger"],
+    github: "https://github.com/KetsiaAnnaelle/Tournoi-de-Douala",
+    live: "https://tournoidedouala.com", 
+    src: "IMG PORTFOLIO/tournoi.PNG",
+  },
+
+  {
+    title: "Project Manager",
+    desc: "Application web de gestion de projet",
+    tech: ["React", "Tailwindcss", "laravel"],
+    github: "https://github.com/KetsiaAnnaelle/ProjectManager-ENSPD",
+    live: "https://project-manager-enspdk.vercel.app/", 
+    src: "IMG PORTFOLIO/project.PNG",
+  },
+
+   {
+    title: "SurveillApp",
+    desc: "Application web de gestion de surveillance dans l'universite IUGET à Douala. Permet de gérer les surveillances des salles de classe et de surveiller les etudiants",
+    tech: ["React", "Tailwindcss", "laravel"],
+    github: "https://github.com/KetsiaAnnaelle/SurveillApp-IUGET",
+    live: "", 
+    src: "IMG PORTFOLIO/surveillapp.PNG",
+  },
   {
     title: "Le Goût D'AfriQ",
     desc: "Restaurant website - Kotto, Douala, Cameroon",
