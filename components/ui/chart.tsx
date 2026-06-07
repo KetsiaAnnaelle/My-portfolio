@@ -1,3 +1,6 @@
+import * as React from "react"
+import { cn } from "@/lib/utils"
+
 function ChartTooltipContent({
   active,
   payload,
@@ -23,6 +26,7 @@ function ChartTooltipContent({
   nameKey?: string
   labelKey?: string
   color?: string
+  labelClassName?: string
   labelFormatter?: (label: any, payload: any[]) => React.ReactNode
   formatter?: (
     value: any,
